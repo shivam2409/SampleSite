@@ -1,0 +1,91 @@
+.navbar
+{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    float: right;
+    padding-bottom: 30px;
+}
+.navbar li{
+    font-size: 15px;
+}
+.navbar a:hover{
+    background-color: brown;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+#bikes{
+    background-color: brown;
+    padding: 5px;
+}
+#img-1{
+   width: 100%;
+   height: 400px;
+   background: url("../images/lead-banner.jpg");    
+   background-size: cover;
+   background-position: center;   
+}
+.main 
+{
+    text-align: center;
+    background-position: center;
+
+}
+.main a{
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.main a:hover{
+    border: 2px solid black;
+    text-decoration: none;
+    background-color:white;
+    color:black;
+    padding: 8px;
+}
+.main image{
+    background:url("../images/stars.png") ;
+    text-align: center; 
+}
+.main footer{
+    height:500px;
+    width: 100%;
+    background: url("../images/footer.jpg");
+    background-size: cover;
+    margin-top: 10px;
+}
+.form1{
+    padding-left: 450px;
+    
+}
+
+.form1 form {
+    background-color: aqua;
+    text-align: center;
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.form1 input{
+    margin-bottom: 10px;
+}
+.about h3{
+    text-align: center;
+
+}
+.about p{
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: justify;
+
+}
